@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Closure AJAX</title>
+	<script src="../static/jquery-3.3.1.min.js"></script>
+
+	<script>
+		$(function(){
+			for(var i=0;i<4;i++){
+				var f=function(j){
+				$('body').append($('<button/>',{text:i,click:function(){alert(j);
+				}}));
+			};
+			f(i);
+			
+		}});
+	</script>
+</head>
+<body>
+
+</body>
+</html>
