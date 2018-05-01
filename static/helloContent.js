@@ -75,6 +75,8 @@ $(function(){
 $(function(){
 	$('body').prepend($('<div>',{text:'Hide Key',css:{color:'blue'}}));
 });
+
+
 $(function(){
 	$('#key th').css('color','red');
 	$('#key').css('border','solid');
