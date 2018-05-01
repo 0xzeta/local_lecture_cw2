@@ -3,9 +3,15 @@
 <head>
 	<title></title>
 	<script src="../static/jquery-3.3.1.min.js"></script>
-	<script src="C:\Users\X541UJ\cw2\template\filter.js"></script>
+	<script src="../static/filter.js"></script>
 </head>
 <body>
+	<div>
+		<p>Hello</p>
+	</div>
+	<div class="selected">
+		<p>Hello Again</p>
+	</div>
 <ul class="level-1">
 	<li class="item-i">I</li>
 	<li class="item-ii">II
@@ -23,5 +29,9 @@
 </li>
 <li class="item-iii">III</li>
 </ul>
+<script>
+	$("li.item-a").parent().css("background-color","red");
+	$("p").parent(".selected").css("background-color","yellow");
+</script>
 </body>
 </html>
