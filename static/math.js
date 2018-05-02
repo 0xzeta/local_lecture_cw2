@@ -12,7 +12,7 @@ $(function(){
 $('#calc').click(function(){
 	$('#info').css('display', 'none');
 	$('#description').css('display', 'none');
-	console.log(url);
+	//console.log(url);
 	$.ajax({
 		url: '/api/calc?a=' + document.getElementById('a').value + '&b=' + document.getElementById('b').value,
 		success:function(data){ 
